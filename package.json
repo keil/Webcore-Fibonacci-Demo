@@ -1,0 +1,16 @@
+{
+  "name": "Webcore-Fibonacci-Demo",
+  "version": "0.0.1",
+  "description": "Webcore Fibonacci Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthias Keil <keil@rm-keil.de> (http://matthias-keil.de)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mustache": "^3.0.1",
+    "fibonacci" : "git:github.com/keil/fibonacci#1.0.0"
+  }
+}
